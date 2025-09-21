@@ -164,6 +164,11 @@ hr {
 }
 
 @media (min-width: 800px) {
+	.container{
+		display: flex;
+
+	}
+
 	.header_pub-info {
 		flex-direction: row;
 		justify-content: space-between;
@@ -173,12 +178,18 @@ hr {
 	.main-article {
 		width: 60%;
 		border-radius: 0.6rem;
-		margin: 0;
+		margin: 1em;
+		padding: 10px;
+		order: 1;
+		
 	}
 
 	.main-sidebar {
 		width: 40%;
 		border-radius: 0.6rem;
-		margin: 0;
+		margin: 1em;
+		order: 2;
 	}
+
+	
 }
